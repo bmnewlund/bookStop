@@ -13,7 +13,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-
 }
 
 h1 {
@@ -76,16 +75,16 @@ hr {
 header {
 	padding: 2.5em 0 0.2em;
 	margin: 0 0 2.0em;
-	background: #39150C url("./img/Bookshelf.jpeg") center 0px;
+	background: #39150C url("./img/book.jpeg") center 0px;
 }
 
 header h1 {
-	font-family: "Times New Roman", Times, serif;
-	color: #745b2f;
+	font-family: "Courier New", Times, serif;
+	color: #4d0000;
 	font-size: 7.5em;
 	letter-spacing: -0.025em;
 	margin: 0;
-	text-shadow: 1px 2px 0 #bd8437; offset-x | offset-y | blur-radius | color
+	text-shadow: 1px 2px 0 #cc0000; offset-x | offset-y | blur-radius | color
 }
 
 header h2 {
@@ -146,12 +145,16 @@ nav li a:hover {
 
 
 
-
-
-
-
-
-
+section#sidebar {
+	width: 238px;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: #fff;
+	margin: 4em 0 3.0em 1.5em;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left: #2BA967 solid 5px;
+}
 
 
 
@@ -186,7 +189,11 @@ section div.panel img.
 
 
 
-
+/*Clear*/
+div.clear {
+	clear:both;
+	font-size: 1%
+}
 
 
 
@@ -194,12 +201,43 @@ section div.panel img.
 /*Footer*/
 
 
+footer {
+	background-color: #40362f;
+	height: 25px;
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2.0em;
+}
 
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
 
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
 
+footer ul li::before {
+	content: "| ";
+	padding: 0 0.7em;
+}
 
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
 
-
+footer a: hover {
+	color: #fff;
+	text-decoration: underline;
+}
 
 
 
