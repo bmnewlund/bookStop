@@ -3,12 +3,43 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="public/main.css">
 		<script
 		  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	</head>
+	
 	<body>
+		<nav class="col-md-12" style=" background-color: #cccc00; height: 100px">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">NASA APOD Daily Photos</a>
+					<ul class= "nav navbar-nav navbar-right">
+						<li><a href="https://twitter.com/nasa"><span class="fa fa-twitter fa-3x"></span></a></li>
+						<li><a href="https://www.instagram.com/nasa/"><span class="fa fa-instagram fa-3x"></span></a></li>
+					</ul>
+				</div>
+			</div>
+						
+		</nav>
+			<div class="container" style=" background-color: black; height: 2000px; border-radius: 0.2em">
+				<div class="row" style="">
+					<div class="col-md-1" style="background-color: black"></div>
 
-		<script src="main.js"></script>
+					<div class="col-md-10" style="text-align: center; background-color: black; height: 2000px">
+					<h1 id="apod_title">Title</h1>
+					<br>
+					<img id="apod_img_id" width="600px">
+					<p id="copyright"></p>
+					<br>
+					<h2 id="apod_explaination"></h2>
+					<br>
+					<h3 id="apod_date"></h3>
+					</div>
+					<div class="col-md-1" style="background-color: black;"></div>
+				</div>
+			</div>
+		<script type="text/javascript" src="public/main.js"></script>
 	</body>
 </html>

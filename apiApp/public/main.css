@@ -1,0 +1,41 @@
+
+
+
+body {
+    background-image: url(../img/stars.jpg);
+}
+
+/*Navbar*/
+.navbar-brand {
+	color: black;
+	font-size: 2.5em;
+}
+
+.fa {
+	color: black;
+}
+
+
+
+/*Body*/
+.container {
+	margin: top 8%;
+	height: 500px;
+	border-radius: .2em
+
+}
+
+#apod_title {
+	color: white;
+}
+
+#apod_explaination {
+	color: white;
+}
+
+
+li {
+	display: inline;
+	text-align: right;
+}
+
